@@ -1,0 +1,173 @@
+aid: colony-capital
+url: https://raw.githubusercontent.com/api-evangelist/colony-capital/refs/heads/main/apis.yml
+name: Colony Capital (DigitalBridge Group)
+tags:
+  - Fortune 1000
+  - Digital Infrastructure
+  - Data Centers
+  - Cell Towers
+  - Fiber
+  - Edge Computing
+  - Alternative Asset Manager
+  - REIT
+kind: company
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+position: Consumer
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+description: >-
+  Colony Capital was a diversified real estate and hospitality investment firm
+  founded by Tom Barrack in 1991. In June 2021 the company rebranded as
+  DigitalBridge Group, Inc. (NYSE: DBRG) — completing a multi-year pivot from
+  traditional real estate to pure-play digital infrastructure investing. The
+  Boca Raton, FL-based alternative asset manager now operates exclusively across
+  five digital infrastructure categories: data centers, macro cell towers,
+  fiber networks, small cells, and edge infrastructure. DigitalBridge manages
+  approximately $119B in assets across 45+ portfolio companies including
+  Vantage Data Centers, DataBank, Switch, Vertical Bridge, Zayo Group, GD
+  Towers, Boingo Wireless, AtlasEdge, Scala Data Centers, Yondr Group, and
+  ExteNet Systems. In December 2025 SoftBank Group announced a definitive
+  agreement to acquire DigitalBridge for approximately $4 billion, with the
+  deal expected to close in the second half of 2026. DigitalBridge itself
+  publishes no developer API, SDK, or public OpenAPI surface — it is a holding
+  company whose programmable surface lives inside its individual portfolio
+  companies (e.g., Zayo, DataBank, Switch), each of which is profiled
+  separately in the API Evangelist network.
+apis: []
+common:
+  - type: Website
+    url: https://www.digitalbridge.com
+  - type: LegacyWebsite
+    url: https://www.colonycapital.com
+  - type: InvestorRelations
+    url: https://ir.digitalbridge.com
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/digitalbridge-group
+  - type: Twitter
+    url: https://twitter.com/DigitalBridge
+  - type: Wikipedia
+    url: https://en.wikipedia.org/wiki/DigitalBridge
+  - type: PortfolioCompanies
+    url: https://www.digitalbridge.com/our-companies
+  - type: Features
+    data:
+      - name: Data Centers
+        description: >-
+          Wholesale, hyperscale, colocation, and edge data center platforms
+          across North America, EMEA, APAC, and LATAM. Includes Vantage Data
+          Centers (NA/EMEA/APAC/SDC), DataBank, Switch, Scala Data Centers,
+          AtlasEdge, Aptum Technologies, AIMS, and Yondr Group.
+      - name: Macro Cell Towers
+        description: >-
+          Large-scale tower portfolios across the US, Europe, LATAM, and APAC.
+          Includes Vertical Bridge (largest private US tower owner), GD Towers
+          (40,000+ sites in Germany/Austria), Digita Oy (Finland/Iceland),
+          Highline do Brasil, Mexico Telecom Partners, Andean Telecom Partners,
+          and JTOWER (Japan).
+      - name: Fiber Networks
+        description: >-
+          Long-haul, metro, and fiber-to-home networks. Includes Zayo Group
+          Holdings (125,000+ route miles globally), Beanfield Metroconnect
+          (Toronto/Montreal), Netomnia (UK), WOW! (US Midwest/Southeast),
+          Fibernow (Florida), Mundo Pacifico (Chile), and Xenith IG (APAC).
+      - name: Small Cells & In-Building Wireless
+        description: >-
+          Distributed antenna systems, neutral-host small cells, and venue
+          Wi-Fi. Includes Boingo Wireless, ExteNet Systems, FreshWave Group
+          (UK), and EdgePoint Infrastructure (Southeast Asia).
+      - name: Edge Infrastructure
+        description: >-
+          Edge compute and distributed colocation facilities supporting low-
+          latency workloads and AI inference at the edge. Anchored by DataBank
+          and AtlasEdge.
+      - name: Digital Infrastructure Ground Leases
+        description: >-
+          Long-term ground lease portfolio supporting wireless and digital
+          infrastructure assets, via Landmark Dividend.
+      - name: Out-of-Home Digital Media Infrastructure
+        description: >-
+          Urban digital advertising infrastructure via Orange Barrel Media.
+  - type: UseCases
+    data:
+      - name: AI & Next-Gen Compute Capacity
+        description: >-
+          DigitalBridge positions its data center and fiber portfolio as core
+          infrastructure for AI training and inference workloads, with
+          hyperscale operators (Vantage, Scala, Yondr, Switch) providing
+          purpose-built capacity for AI tenants.
+      - name: 5G Densification & Coverage
+        description: >-
+          Tower, small cell, and DAS portfolios support carrier 5G rollouts and
+          in-building/venue coverage across multiple geographies.
+      - name: Hyperscale Cloud Capacity
+        description: >-
+          Wholesale data center capacity leased to the largest cloud and
+          internet platforms via Vantage, Scala, and Yondr.
+      - name: Enterprise Connectivity & Managed Services
+        description: >-
+          Enterprise fiber, dark fiber, IP transit, and managed services via
+          Zayo, Aptum, and Beanfield Metroconnect.
+      - name: Residential Fiber Broadband
+        description: >-
+          Fiber-to-home broadband in select US, UK, Chilean, and Brazilian
+          markets via WOW!, Netomnia, Mundo Pacifico, and Fibernow.
+  - type: Integrations
+    data:
+      - name: Vantage Data Centers
+        description: Hyperscale data center operator across North America, EMEA, and APAC.
+      - name: DataBank
+        description: 60+ colocation and edge data centers across 30+ US markets.
+      - name: Switch
+        description: 100% renewable-powered enterprise data center platform in Nevada, Texas, Georgia, and Michigan.
+      - name: Zayo Group
+        description: Global fiber network with 125,000+ route miles serving carriers, enterprises, and hyperscalers.
+      - name: Vertical Bridge
+        description: Largest private tower owner/operator in the United States.
+      - name: GD Towers
+        description: 40,000+ macro tower sites across Germany and Austria.
+      - name: Boingo Wireless
+        description: DAS, Wi-Fi, and small cell networks at airports, stadiums, and venues globally.
+      - name: ExteNet Systems
+        description: Distributed antenna systems and small cell networks across North America.
+      - name: Scala Data Centers
+        description: Hyperscale data center operator in Brazil, Mexico, and Chile.
+      - name: AtlasEdge
+        description: 100+ edge data center facilities across Europe.
+      - name: Yondr Group
+        description: Global hyperscale data center developer and operator.
+      - name: Aptum Technologies
+        description: Managed services and 14 data centers across North America and the UK.
+      - name: AIMS
+        description: Southeast Asian colocation operator; hosts the Malaysia Internet Exchange.
+      - name: Netomnia
+        description: Full-fiber broadband infrastructure across the United Kingdom.
+      - name: WOW!
+        description: Broadband provider serving Midwest and Southeast US markets.
+      - name: Landmark Dividend
+        description: Digital infrastructure ground lease portfolio.
+      - name: Orange Barrel Media
+        description: Digital advertising infrastructure in urban environments.
+  - type: Acquisitions
+    data:
+      - name: SoftBank Group (pending)
+        description: >-
+          On December 29, 2025, SoftBank Group announced a definitive agreement
+          to acquire DigitalBridge for approximately $4 billion, with closing
+          expected in the second half of 2026.
+  - type: Predecessor
+    data:
+      - name: Colony Capital, Inc.
+        description: >-
+          Diversified real estate and hospitality investment firm founded by
+          Tom Barrack in 1991. Historical portfolio included Raffles International
+          (2005), Fairmont Hotels and Resorts (2006, $3.24B), Paris Saint-Germain
+          football club (2006), and Miramax (2010 from Disney). Merged with
+          NorthStar Asset Management and NorthStar Realty Finance in January
+          2017 to form Colony NorthStar. Rebranded as DigitalBridge Group in
+          June 2021 to reflect its complete pivot to digital infrastructure.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
