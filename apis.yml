@@ -38,6 +38,8 @@ description: >-
   separately in the API Evangelist network.
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/colony-capital-domain-security.yml
   - type: Website
     url: https://www.digitalbridge.com
   - type: LegacyWebsite
@@ -52,6 +54,8 @@ common:
     url: https://en.wikipedia.org/wiki/DigitalBridge
   - type: PortfolioCompanies
     url: https://www.digitalbridge.com/our-companies
+  - url: https://www.digitalbridge.com/news/news-feed.xml
+    type: Blog
   - type: Features
     data:
       - name: Data Centers
