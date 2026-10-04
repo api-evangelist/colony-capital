@@ -4,7 +4,7 @@ name: Colony Capital (DigitalBridge Group)
 tags:
   - Fortune 1000
   - Digital Infrastructure
-  - Data-Center
+  - Data Center
   - Cell Towers
   - Fiber
   - Edge Computing
@@ -19,6 +19,7 @@ tags_raw:
   - Edge Computing
   - Alternative Asset Manager
   - REIT
+  - Data-Center
 kind: company
 type: Index
 deliveryModel:
@@ -206,3 +207,6 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-status: rebranded
+x-rebranded-to: DigitalBridge Group
+x-status-source: Renamed DigitalBridge Group, Inc. (NYSE DBRG) in June 2021; https://www.digitalbridge.com 200 and https://www.colonycapital.com 404 (checked 2026-09-24); SoftBank merger approved by stockholders 2026-04-23, not yet closed per the DBRG 10-Q for 2026-06-30
