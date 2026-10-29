@@ -64,41 +64,47 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Profile for Colony Capital in the [API Evangelist](https://apievangelist.com) network. Fortune 1000 (historical rank 840 as Colony Capital).
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-## Rebrand
+**Status:** rebranded
 
-Colony Capital, Inc. **rebranded as DigitalBridge Group, Inc. in June 2021** (NYSE: DBRG), completing a multi-year pivot away from diversified real estate and hospitality investing toward pure-play digital infrastructure. Founded by Tom Barrack in 1991, the firm previously owned interests in Raffles International, Fairmont Hotels and Resorts, Paris Saint-Germain football club, and Miramax. The 2017 merger with NorthStar Asset Management and NorthStar Realty Finance created Colony NorthStar; the 2021 rebrand marked the final transition.
+Colony Capital was a diversified real estate and hospitality investment firm founded by Tom Barrack in 1991. In June 2021 the company rebranded as DigitalBridge Group, Inc. (NYSE: DBRG) — completing a multi-year pivot from traditional real estate to pure-play digital infrastructure investing. The Boca Raton, FL-based alternative asset manager now operates exclusively across five digital infrastructure categories: data centers, macro cell towers, fiber networks, small cells, and edge infrastructure. DigitalBridge manages approximately $119B in assets across 45+ portfolio companies including Vantage Data Centers, DataBank, Switch, Vertical Bridge, Zayo Group, GD Towers, Boingo Wireless, AtlasEdge, Scala Data Centers, Yondr Group, and ExteNet Systems. In December 2025 SoftBank Group announced a definitive agreement to acquire DigitalBridge for approximately $4 billion, with the deal expected to close in the second half of 2026. DigitalBridge itself publishes no developer API, SDK, or public OpenAPI surface — it is a holding company whose programmable surface lives inside its individual portfolio companies (e.g., Zayo, DataBank, Switch), each of which is profiled separately in the API Evangelist network.
 
-Today DigitalBridge is a Boca Raton, FL-based alternative asset manager with approximately **$119B in assets under management** across **45+ portfolio companies** and **100+ digital infrastructure professionals**, operating across five categories: data centers, macro cell towers, fiber networks, small cells, and edge infrastructure.
+**Areas:** Fortune 1000 · Digital Infrastructure · Data Center · Cell Towers · Fiber · Edge Computing · Alternative Asset Manager · REIT
 
-In **December 2025**, SoftBank Group announced a definitive agreement to acquire DigitalBridge for approximately **$4 billion**, with closing expected in H2 2026.
+## Colony Capital (DigitalBridge Group) on APIs.io (historical record)
 
-## Digital Infrastructure Subsidiaries
+Everything profiled for Colony Capital (DigitalBridge Group) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/colony-capital/](https://apis.io/providers/colony-capital/)** — or go straight to one of the APIs or properties below.
 
-| Category | Portfolio Companies |
-|---|---|
-| **Data Centers** | Vantage Data Centers (NA / EMEA / APAC / SDC), DataBank, Switch, Scala Data Centers, AtlasEdge, Aptum Technologies, AIMS, Yondr Group |
-| **Macro Cell Towers** | Vertical Bridge, GD Towers, Digita Oy, Highline do Brasil, Mexico Telecom Partners, Andean Telecom Partners, JTOWER |
-| **Fiber Networks** | Zayo Group Holdings, Beanfield Metroconnect, Netomnia, WOW!, Fibernow, Mundo Pacifico, Xenith IG |
-| **Small Cells / DAS** | Boingo Wireless, ExteNet Systems, FreshWave Group, EdgePoint Infrastructure |
-| **Edge Infrastructure** | DataBank, AtlasEdge |
-| **Ground Leases & OOH** | Landmark Dividend, Orange Barrel Media |
+### Published properties
 
-Several of these subsidiaries are profiled separately in the API Evangelist network (e.g. [zayo-group](https://github.com/api-evangelist/zayo-group), [vantage](https://github.com/api-evangelist/vantage)).
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs Documented
+#### Security (1)
 
-**0 public APIs.** DigitalBridge is a holding company / alternative asset manager — it publishes no developer portal, OpenAPI specification, SDK, or public API. Its programmable surface lives entirely inside its individual portfolio companies, each of which exposes (or does not expose) its own developer surface.
+Authentication, trust centre, and vulnerability disclosure.
 
-## Files
+- [Colony Capital Domain Security](https://apis.io/security/colony-capital/colony-capital-domain-security/)
 
-- `apis.yml` — apis.json 0.19 index documenting the rebrand, subsidiaries, features, use cases, and integrations.
+## Where to find this API
 
-## Sources
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- https://www.digitalbridge.com
-- https://www.digitalbridge.com/our-companies
-- https://en.wikipedia.org/wiki/DigitalBridge
-- https://en.wikipedia.org/wiki/Colony_Capital
-- https://ir.digitalbridge.com
+- [Website](https://www.digitalbridge.com)
+- [Blog](https://www.digitalbridge.com/news/news-feed.xml)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Colony Capital (DigitalBridge Group): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/colony-capital/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
